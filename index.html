@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
     <link rel="stylesheet" href="assets/css/leadmark.css">
+    <link rel="icon" href="assets/imgs/icono.ico" />
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -58,7 +59,7 @@
     </header>
     <!-- End Of Page Header -->
     <!-- Service Section -->
-    <section id="service" class="section pt-2">
+    <section id="service" class="section pt-10">
         <div class="container">
             <h6 class="section-title text-center">Nuestro servicio</h6>
 
@@ -277,6 +278,7 @@
         </div>
     </section>
     <!-- End of portfolio section -->
+
     <!-- Contact Section -->
     <section id="contact" class="section has-img-bg pb-0">
         <div class="container">
@@ -293,7 +295,8 @@
                     <p></p>
                 </div>
                 <div class="col-md-7">
-                    <form>
+                    <form   action="https://formspree.io/f/moqblpav"
+                            method="POST">
                         <h4 class="mb-4">¿Tienes alguna duda, quieres asesoría sobre los kits o quieres saber más de nosotros?</h4>
                         <h6 class="section-subtitle">¡Entonces ponte en contacto con nosotros!</h6>
                         <br />
@@ -302,13 +305,13 @@
                                 <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Nombre">
                             </div>
                             <div class="form-group col-sm-4">
-                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
+                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="email" placeholder="Email">
                             </div>
                             <div class="form-group col-sm-4">
                                 <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Asunto">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje"></textarea>
+                                <textarea id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje" name="message"></textarea>
 
                             </div>
                             <div class="form-group col-12 mb-0">
