@@ -1,37 +1,5 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-:root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #eb4d4b;
-  --orange: #fd7e14;
-  --yellow: #EE5A24;
-  --green: #6ab04c;
-  --teal: #00cec9;
-  --cyan: #1289A7;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #1b1b1b;
-  --primary: #ff6e42;
-  --secondary: #6c757d;
-  --success: #6ab04c;
-  --info: #1289A7;
-  --warning: #EE5A24;
-  --danger: #eb4d4b;
-  --light: #f8f9fa;
-  --dark: #1b1b1b;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Poppins", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 *,
 *::before,
 *::after {
@@ -257,12 +225,6 @@ select {
   word-wrap: normal;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -285,12 +247,6 @@ input[type="checkbox"] {
   padding: 0;
 }
 
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
-}
 
 textarea {
   overflow: auto;
@@ -323,11 +279,6 @@ progress {
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
-}
-
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
